@@ -5,6 +5,7 @@ edition = "2024"
 default-run = "my-redis-project"
 
 [dependencies]
+bytes = "1.10.1"
 mini-redis = "0.4.1"
 tokio = { version = "1.44.1", features = ["full"] }
 
